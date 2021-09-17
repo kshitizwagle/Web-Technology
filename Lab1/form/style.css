@@ -19,7 +19,6 @@ label {
 .container > input,
 .container > select {
   width: 70%;
-  margin: 20px;
   height: 25px;
   margin: 8px;
   border: 1.5px solid black;
@@ -40,7 +39,7 @@ label {
 textarea {
   height: 1in;
   width: 3.5in;
-  border-radius: 1px solid black;
+  border: 1px solid black;
 }
 
 .parent {
