@@ -1,0 +1,60 @@
+fieldset {
+  width: 500px;
+}
+.nobold {
+  font-weight: lighter;
+}
+
+label {
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.container > label {
+  width: 30%;
+}
+
+.container > input,
+.container > select {
+  width: 70%;
+  margin: 20px;
+  height: 25px;
+  margin: 8px;
+  border: 1.5px solid black;
+  overflow: hidden;
+}
+
+.vehicle {
+  margin-left: 150px;
+}
+.vehicle > div {
+  margin: 10px;
+}
+
+.vehicle div label {
+  font-weight: 100;
+}
+textarea {
+  height: 1in;
+  width: 3.5in;
+  border-radius: 1px solid black;
+}
+
+.parent {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.parent > button {
+  border: 1px solid gray;
+  height: 0.5in;
+  width: 1.6in;
+  border-radius: 10px;
+}

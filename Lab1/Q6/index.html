@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="login.php" method="POST">
+        <fieldset>
+            <label for="name">Name</label>
+            <input type="text" name="name"><br>
+            <label for="Phone">Phone</label>
+            <input type="text" name="phone"><br>
+            <label for="email">Email</label>
+
+            <input type="text" name="email"><br>
+            <label for="taxi">Which taxi do you require?</label><br>
+            <input type="radio" value="Car" class="tab">
+            <label for="car">Car</label><br>
+            <input type="radio" value="Van" class="tab">
+            <label for="car">Van</label><br>
+            <input type="radio" value="Tuk Tuk" class="tab">
+            <label for="car">Tuk Tuk</label><br>
+
+            <label for="extras">Extras</label><br>
+            <input type="checkbox" name="babyseat" class="tab">
+            <label for="baby_seat">Baby Seat</label><br>
+            <input type="checkbox" name="wheelchair_access" class="tab">
+            <label for="wheelchair_access">Wheelchair Access</label><br>
+            <input type="checkbox" name="stock_tip" class="tab">
+            <label for="stock_tip">Stock Tip</label><br>
+
+            <label for="date">Pickup Date/Time</label>
+            <input type="datetime-local" name="datetime"><br>
+            <label for="pickup_place">Pickup place</label>
+            <select name="pickup_location">
+                <option></option>
+            </select><br>
+            <label for="dropoff_location">Dropoff location</label>
+            <input type="text" name="dropoff_location"><br>
+            <p class="special">
+                <label for="special_instructions">Special Instructions</label>
+                <textarea rows="5"></textarea><br>
+            </p>
+            <button>Submit Booking</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
