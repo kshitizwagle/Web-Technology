@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!DOCTYPE students [
+    <!ELEMENT students (student+)>
+    <!ELEMENT student (name, age, gender, faculty, address)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT age (#PCDATA)>
+    <!ELEMENT gender (#PCDATA)>
+    <!ELEMENT faculty (#PCDATA)>
+    <!ELEMENT address (#PCDATA)>
+]>
+<students>
+    <student>
+        <name>Kshitiz Wagle</name>
+        <age>20</age>
+        <gender>Male</gender>
+        <faculty>BCA</faculty>
+        <address>20th street</address>
+    </student>
+    <student>
+        <name></name>
+        <age></age>
+        <gender></gender>
+        <faculty></faculty>
+        <address></address>
+    </student>
+    <student>
+        <name></name>
+        <age></age>
+        <gender></gender>
+        <faculty></faculty>
+        <address></address>
+    </student>
+    <student>
+        <name></name>
+        <age></age>
+        <gender></gender>
+        <faculty></faculty>
+        <address></address>
+    </student>
+    <student>
+        <name></name>
+        <age></age>
+        <gender></gender>
+        <faculty></faculty>
+        <address></address>
+    </student>
+</students>
